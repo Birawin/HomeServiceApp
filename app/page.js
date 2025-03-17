@@ -1,12 +1,13 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import header from "./_components/details/header";
+import Header from "./_components/details/header";
+import Hero from "./_components/details/hero";
 
 export default function Home() {
   return (
-    <div>
-      <h2></h2>
-
-    </div>
+    <>
+      <Header/>
+      <Hero/>
+    </>
   );
 }
