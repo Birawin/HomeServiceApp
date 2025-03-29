@@ -3,6 +3,8 @@ import { Outfit } from "next/font/google";
 
 import "./globals.css";
 import Header from "./_components/details/header";
+import Hero from "./_components/details/hero";
+import Home from "./page";
 
 const outfit = Outfit({
   subsets: ['latin'],
@@ -32,6 +34,10 @@ export default function RootLayout({ children }) {
           <Header>
             {children}
           </Header>
+          <Hero>
+            {children}
+          </Hero>
+
         </div>
       </body>
     </html>
